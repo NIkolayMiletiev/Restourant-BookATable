@@ -1,0 +1,45 @@
+body 
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+
+}
+main {
+    background: rgb(197, 197, 75);
+   
+}
+
+main section article {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    height: 674px;
+}
+
+article img {
+    max-width: 639px;
+}
+
+.form-wrapper {
+    background-color: #111111;
+    color: white;
+    padding:50px;
+    text-align: center;
+}
+.form-wrapper label, input {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.form-wrapper input {
+    background: rhb (0 0 0 / 0%);
+    border: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 7px;
+}
+input [type="submit"]:hover {
+cursor: pointer;
+}
